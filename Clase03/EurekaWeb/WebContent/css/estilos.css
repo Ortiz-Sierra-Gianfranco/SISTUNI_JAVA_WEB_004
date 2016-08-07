@@ -1,0 +1,65 @@
+@CHARSET "ISO-8859-1";
+
+body{
+	background-color: #2E2E2E;
+	color:#6E6E6E;
+}
+
+h1{
+	color: #08088A;
+	border-bottom: thin solid #08088A;
+	font-size: 16px;
+	font-family: Arial;
+}
+
+.egcc_info{
+	background-color: #E6E6E6;
+	color: #084B8A;
+	padding: 10px;
+	border: thin solid #2E2E2E;
+}
+
+.egcc_error{
+	background-color: #E6E6E6;
+	color: #B40404;
+	padding: 10px;
+	border: thin solid #2E2E2E;
+}
+
+.egcc_page{
+	width: 900px;
+	background-color: #0B615E;
+	margin: 5px auto;
+	padding: 10px;
+}
+
+.egcc_header{
+  width: 890px;
+  background-color: white;
+  padding: 5px;
+}
+
+.egcc_menu{
+  width: 890px;
+  background-color: #D8D8D8;
+  padding: 5px;
+}
+
+.egcc_work{
+  width: 890px;
+  background-color: white;
+  padding: 5px;
+}
+
+.egcc_pie{
+  width: 890px;
+  background-color: #084B8A;
+  color:#E6E6E6;
+  padding: 5px;
+}
+
+
+
+
+
+
