@@ -1,0 +1,40 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Main_Page</title>
+<link rel="stylesheet" type="text/css" href="css/misestilos.css">
+<link rel="stylesheet" type="text/css" href="menu/menu.css">
+<script type="text/javascript" src="jquery/jquery.js"></script>
+</head>
+<body>
+	<div id="PAGINA">
+	 <div id="CABECERA">
+	 	<table>
+	 		<tr>
+	 			<td>
+	 			<img width="650px" heigth="250px" src="img/banner_empresa.jpg">
+	 			</td>
+	 			<td id="OpenSession">
+	 				<b>Usuario : </b><%=request.getSession().getAttribute("usuario") %><br/>
+					<a href="/Java_Web/ServletCloseSession">Cerrar Sesion</a>
+	 			</td>
+	 		</tr>
+	 	</table>
+	 </div>
+	 <div id="MENU">
+	 	<jsp:include page="menu/menu.jsp"/>
+	 </div>
+	 <div id="CONTENIDO">
+	 	<img src="img/imagen.jpg">
+	 </div>
+	<script type="text/javascript">
+
+	function loadPage(page){
+		$("#CONTENIDO").load(page);
+	}
+</script>
+</body>
+</html>

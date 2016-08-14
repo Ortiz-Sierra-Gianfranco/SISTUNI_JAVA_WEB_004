@@ -1,0 +1,49 @@
+package controller;
+
+import java.util.List;
+import dao.ProductoDao;
+import entity.Producto;
+
+
+public class ProductoBll {
+
+    //variables
+    ProductoDao dao;
+
+    //constructor
+    public ProductoBll() {
+        dao = new ProductoDao();
+    }
+
+    //metodos de negocio
+    public List<Producto> productoListar() throws Exception {
+        return dao.readAll();
+    }
+
+    public List<Producto> productoListar(String nom) throws Exception {
+        return dao.readAll(nom);
+    }
+
+    public List<Producto> productoListar(int x) throws Exception {
+        return dao.readAll(x);
+    }
+
+    public void ProductoAdicionar(Producto x) throws Exception {
+        dao.create(x);
+    }
+
+    public void ProductoActualizar(Producto x) throws Exception {
+        dao.update(x);
+    }
+
+    public void ProductoEliminar(Producto x) throws Exception {
+        dao.delete(x);
+    }
+
+    public Producto productoBuscar(Object x) throws Exception {
+        return dao.find(x);
+    }
+    public Producto ProductoBuscar(String x) throws Exception {
+        return dao.find(x);
+    }
+}

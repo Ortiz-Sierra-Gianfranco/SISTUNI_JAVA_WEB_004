@@ -1,0 +1,57 @@
+package controller;
+
+import java.io.IOException;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import entity.Producto;
+
+/**
+ * Servlet implementation class ServletNewProducto
+ */
+@WebServlet("/ServletNewProducto")
+public class ServletNewProducto extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public ServletNewProducto() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		response.getWriter().append("Served at: ").append(request.getContextPath());
+	}
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
+		Producto pro = new Producto();
+		ProductoBll obj = new ProductoBll();
+		pro.setIdproducto("0001");
+		pro.setDescripcion(request.getParameter("descr"));
+		pro.setIdlinea(Integer.parseInt(request.getParameter("linea")));
+		pro.setPreciocompra(Double.parseDouble(request.getParameter("compra")));
+		pro.setPrecioventa(Double.parseDouble(request.getParameter("venta")));
+		pro.setStock(Integer.parseInt(request.getParameter("stock")));
+		String destino = null;
+		try {
+			obj.ProductoAdicionar(pro);
+			destino="New_Producto.jsp";
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		RequestDispatcher rd;
+	    rd = request.getRequestDispatcher(destino);
+	    rd.forward(request, response);
+	}
+
+}

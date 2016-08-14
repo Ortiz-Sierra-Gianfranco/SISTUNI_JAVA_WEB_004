@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="Database.AccesoDB"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+<fullyQualifiedTypeName name="controller.ServletCloseSession"/>
+<fullyQualifiedTypeName name="entity.Empleado"/>
+<fullyQualifiedTypeName name="controller.EmpleadoBll"/>
+<fullyQualifiedTypeName name="com.google.gson.Gson"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="dao.ClienteDao"/>
+<fullyQualifiedTypeName name="com.sun.org.apache.bcel.internal.generic.NEWARRAY"/>
+<fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+<fullyQualifiedTypeName name="entity.Proveedor"/>
+<fullyQualifiedTypeName name="controller.ProveedorBll"/>
+<fullyQualifiedTypeName name="dto.Mensaje"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="controller.ClienteBll"/>
+<fullyQualifiedTypeName name="entity.Cliente"/>
+<fullyQualifiedTypeName name="controller.ProductoBll"/>
+<fullyQualifiedTypeName name="entity.Producto"/>
+</qualifiedTypeNameHistroy>

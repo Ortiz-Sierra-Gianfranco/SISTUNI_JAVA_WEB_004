@@ -1,0 +1,21 @@
+<div class="menu">
+		<ul>
+			<li><a href="Menu.jsp" >Home</a></li>
+			<li><a href="#" >Consulta</a>
+				<ul>
+					<li><a href="javascript: loadPage('conCliente.jsp')">Clientes</a></li>
+			   </ul>
+		  </li>
+			<li><a href="/faq.php">Lista</a>
+                <ul>
+                <li><a href="javascript: loadPage('ListProduct.jsp')">Productos</a></li>
+                <li><a href="javascript: loadPage('ListProvee.jsp')">Proveedores</a></li>
+                </ul>
+          </li>
+			<li><a href="#">Utilidades</a>
+				<ul>
+				<li><a href="javascript: loadPage('NewUser.jsp')">Nuevo Usuario</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>

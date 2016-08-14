@@ -1,0 +1,37 @@
+@CHARSET "ISO-8859-1";
+BODY{
+	background-color: #737D9A;
+	font-family: sans-serif;
+	font-size: 20px;
+}
+#PAGINA{
+	background-color: #B8F4BE;
+	margin: 10px auto;
+	padding: 10px;
+	width: 920px;	
+}
+
+#CABECERA{
+	background-color: white;
+	margin: 10px;
+	padding: 10px;
+	font-size: 14px;
+}
+
+#MENU{
+	background-color: #D7DADC;
+	margin: 10px;
+	padding: 10px;
+}
+
+#CONTENIDO{
+	background-color: white;
+	margin: 10px;
+	padding: 10px;
+}
+#OpenSession{
+	padding-left: 50px;
+	padding-right: 50px;
+	text-align: center;
+	
+}

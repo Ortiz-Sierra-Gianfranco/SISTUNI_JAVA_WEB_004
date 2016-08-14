@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;ResponseClient.java&apos; to &apos;Java_Web/src/controller&apos;&#x0D;&#x0A;- Original project: &apos;AppEureka&apos;&#x0D;&#x0A;- Destination element: &apos;Java_Web/src/controller&apos;&#x0D;&#x0A;- Original element: &apos;pe.egcc.eureka.controller.ResponseClient.java&apos;" description="Copy compilation unit" destination="=Java_Web/src&lt;controller" element1="/src&lt;pe.egcc.eureka.controller{ResponseClient.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1460598143978" units="1" version="1.0"/>
+</session>

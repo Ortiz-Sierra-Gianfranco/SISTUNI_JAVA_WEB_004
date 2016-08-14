@@ -1,0 +1,11 @@
+
+abr. 12, 2016 17:40:52.46 NEW SESSION
+abr. 12, 2016 17:40:52.46 1460500852454	addons.update-checker	WARN	Update manifest for bdwteff@bitdefender.com did not contain an updates property
+abr. 12, 2016 17:40:52.80 1460500852810	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+
+abr. 13, 2016 17:42:38.96 NEW SESSION
+abr. 13, 2016 17:42:38.99 1460587358626	addons.update-checker	WARN	Update manifest for bdwteff@bitdefender.com did not contain an updates property
+abr. 13, 2016 17:42:39.02 1460587358870	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+abr. 13, 2016 17:42:39.83 1460587359836	addons.xpi	ERROR	Failed to clean updated system add-ons directories.: Win error 2 during operation DirectoryIterator.prototype.next on file C:\Users\User\AppData\Roaming\Mozilla\Firefox\Profiles\utx642uk.default\features (El sistema no puede encontrar el archivo especificado.
+abr. 13, 2016 17:42:39.88 
+abr. 13, 2016 17:42:39.90 ) ((unknown module)) No traceback available

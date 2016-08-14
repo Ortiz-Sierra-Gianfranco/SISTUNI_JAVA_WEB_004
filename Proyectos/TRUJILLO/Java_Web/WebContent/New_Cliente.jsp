@@ -1,0 +1,37 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<div>
+		<h1>Nuevo Cliente</h1>
+	</div>
+	<form method="post" action="ServletNewCliente">
+		<table>
+			<tr>
+				<td>Nombre : </td>
+				<td><input type="text" id= "nomCli" name="nomCli"></td>
+			</tr>
+			<tr>
+				<td>Direccion : </td>
+				<td><input type="text" id= "dirCli" name="dirCli"></td>
+			</tr>
+			<tr>
+				<td>RUC/Dni : </td>
+				<td><input type="text" id= "dniCli" name="dniCli"></td>
+			</tr>
+			<tr>
+				<td>Telefono : </td>
+				<td><input type="text" id= "telCli" name="telCli"></td><br/>
+			</tr>
+		</table>
+		<tr>
+		<input type="submit" value ="Crear Cliente">
+		</tr>
+	</form>
+</body>
+</html>

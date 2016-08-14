@@ -1,0 +1,15 @@
+@CHARSET "ISO-8859-1";
+
+
+#PAGINA{
+	background-color: #B8F4BE;
+	margin: 10px auto;
+	padding: 10px;
+	width: 920px;	
+}
+
+#OpenSession{
+	padding-left: 30px;
+	padding-right: 30px;
+	
+}

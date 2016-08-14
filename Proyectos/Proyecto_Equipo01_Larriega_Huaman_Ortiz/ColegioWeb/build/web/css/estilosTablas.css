@@ -1,0 +1,63 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 2px solid white;
+    text-align: left;
+    padding: 8px 8px 8px 40px;
+}
+
+
+
+th {
+    background-color: #1976D2;
+    color: white;
+}
+
+.container2 {
+    width:50%;
+    margin:auto;
+}
+
+
+.regProCur {
+    margin: auto;
+    padding-top: 30px;
+}
+
+.margin_t {
+    width: 50%;
+    margin-top: 30px;
+   
+   
+}
+
+#btn-submit{
+        background: #1976D2;
+        border-radius: 1px;
+        border: 2px solid #f2f2f2;
+        color: white;
+	cursor: pointer;
+	display: inline-block;
+	font-family: "Roboto", Arial;
+	font-size: 16px;
+	padding: 15px;
+	width: 100%;
+	-webkit-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;}
+        
+
+#btn-submit:hover{
+    	background: #0d4073;
+        color:white;      
+}
+.style_th {
+    border:none;
+    background-color: #1B1D35;
+}
+
+
+

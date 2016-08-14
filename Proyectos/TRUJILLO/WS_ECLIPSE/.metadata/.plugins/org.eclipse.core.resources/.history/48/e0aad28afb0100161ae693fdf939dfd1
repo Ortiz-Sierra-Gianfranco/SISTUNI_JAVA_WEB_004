@@ -1,0 +1,37 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+    <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Lista_Productos</title>
+</head>
+<body>
+	<h1> Lista de Productos</h1>
+	<form method="post" action="ServletListaProductos">
+	<input type="submit" value="Mostrar">
+	</form>
+	<c:if test="${lista != null}">
+		<h2>RESULTADO DE LA CONSULTA</h2>
+		<table>
+			<tr>
+				<th>IDPRODUCTO</th>
+				<th>DESCRIPCION</th>
+				<th>PRECIO_COMPRA</th>
+				<th>PRECIO_VENTA</th>
+				<th>STOCK</th>
+			</tr>	
+			<c:forEach items="${lista}" var="r">
+			<tr>
+				<td>${r.idproducto}</td>
+				<td>${r.descripcion}</td>
+				<td>${r.preciocompra}</td>
+				<td>${r.precioventa}</td>
+				<td>${r.stock}</td>
+			</tr>
+			</c:forEach>
+		</table>
+	</c:if>
+</body>
+</html>
